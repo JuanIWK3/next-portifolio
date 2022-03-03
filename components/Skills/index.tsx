@@ -30,7 +30,7 @@ export const Skills = () => {
       <div>Most Used Tools</div>
       <div className="skills">
         {languages.map((language) => (
-          <button>
+          <button key={language.name}>
             <Image
               src={language.image}
               height={30}
