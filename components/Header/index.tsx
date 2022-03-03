@@ -5,15 +5,15 @@ import Link from "next/link";
 export const Header = () => {
   return (
     <Container>
-      <Link href="/">
+      <Link href="/" passHref>
         <button className="logo">Juan</button>
       </Link>
       <div className="buttons">
-        <Link href="projects">
+        <Link href="projects" passHref>
           <button>Projects</button>
         </Link>
 
-        <Link href="contact">
+        <Link href="contact" passHref>
           <button>Contact</button>
         </Link>
       </div>
