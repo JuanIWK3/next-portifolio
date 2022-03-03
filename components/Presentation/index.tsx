@@ -23,7 +23,7 @@ export const Presentation = () => {
             fontFamily: "Montserrat",
           }}
         >
-          Fronted Developer
+          Frontend Developer
         </p>
         <p
           style={{
