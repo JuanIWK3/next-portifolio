@@ -35,6 +35,7 @@ export const Skills = () => {
               src={language.image}
               height={30}
               width={language.name === "NextJS" ? 50 : 30}
+              alt={language.name + "image"}
             />
             <p>{language.name}</p>
           </button>
