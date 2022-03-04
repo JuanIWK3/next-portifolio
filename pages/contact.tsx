@@ -17,11 +17,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      <main>
-        <Presentation />
-        <Skills />
-        <BestProjects />
-      </main>
+      <main></main>
       <Footer />
     </div>
   );

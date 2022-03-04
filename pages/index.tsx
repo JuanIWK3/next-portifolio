@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import { BestProjects } from "../components/BestProjects";
 
 import { Footer } from "../components/Footer";
@@ -21,6 +22,11 @@ const Home: NextPage = () => {
         <Presentation />
         <Skills />
         <BestProjects />
+        <div className="contact-home">
+          <Link href="contact" passHref>
+            <button>Entre em contato</button>
+          </Link>
+        </div>
       </main>
       <Footer />
     </div>

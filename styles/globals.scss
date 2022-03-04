@@ -28,8 +28,21 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow-x: hidden;
 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-home {
+  padding: 32px;
+
+  button {
+    padding: 16px;
+    border-radius: 0.5rem;
+    border: none;
+    background: #0070fe;
+    color: #fff;
+  }
 }

@@ -31,9 +31,8 @@ export const Presentation = () => {
             textAlign: "center",
           }}
         >
-          Desenvolvimento de aplicações web responsivas, funcionais que agradam
-          aos seus usuários, usando das melhores práticas e técnicas existentes
-          no mercado
+          Development of responsive, functional web applications that please its
+          users, using the best practices and techniques available on the market
         </p>
       </div>
     </Container>
