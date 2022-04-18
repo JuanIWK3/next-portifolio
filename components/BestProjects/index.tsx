@@ -19,14 +19,14 @@ export const BestProjects = () => {
           <div>
             <a
               href="https://vercel.com/juaniwk3/angular-calculator"
-              target="_blank"
+              target="blank"
             >
               <div className="project">
                 <p>Calculator</p>
                 <Image src={calculatorImg} height={450} width={300} />
               </div>
             </a>
-            <a href="https://csgo-guns-next.vercel.app/" target="_blank">
+            <a href="https://csgo-guns-next.vercel.app/" target="blank">
               <div className="project">
                 <p>CSGO Guns</p>
                 <Image src={csgoImg} height={450} width={300} />
@@ -34,13 +34,13 @@ export const BestProjects = () => {
             </a>
           </div>
           <div>
-            <a href="https://angular-todo-jiwk3.vercel.app/" target="_blank">
+            <a href="https://angular-todo-jiwk3.vercel.app/" target="blank">
               <div className="project">
                 <p>To Do</p>
                 <Image src={todoImg} height={450} width={300} />
               </div>
             </a>
-            <a href="https://vercel.com/juaniwk3/webchat" target="_blank">
+            <a href="https://vercel.com/juaniwk3/webchat" target="blank">
               <div className="project">
                 <p>Web Chat</p>
                 <Image src={webchatImg} height={450} width={300} />
